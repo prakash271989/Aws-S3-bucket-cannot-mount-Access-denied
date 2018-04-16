@@ -18,9 +18,13 @@ git clone https://github.com/s3fs-fuse/s3fs-fuse.git
 
 Installation has done by using below commands
 cd s3fs-fuse
+
 ./autogen.sh
+
 ./configure --prefix=/usr --with-openssl
+
 make
+
 sudo make install
 
 Verified the s3fs path whether the installaiton is complete successfully
