@@ -54,5 +54,5 @@ Step 3 :-
 after that mount the s3bucketin your Ec2 instance using below command.
 s3fs your_bucketname -o use_cache=/tmp -o allow_other -o uid=1001 -o mp_umask=002 -o multireq_max=5 /mydatafile
 
-In S3 creation  Set permission ->Manage public permissions -> i just leave as it is(Do not grant public read access to this bucket (Recommended)).
+In S3 creation  Set permission ->Manage public permissions -> i just leave as it is(Do not grant public read access to this bucket (Recommended)). If i changed to public i can able to mount the s3 bucket in Ec2 instance using aws owner and ACL user.
 
